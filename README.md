@@ -1,4 +1,6 @@
 JS Exercises
 ============
 
-Go visit this site here: https://finalclass.github.io/exercises/#operators
+Available exercises:
+
+- [Operators](https://finalclass.github.io/exercises/#operators)
