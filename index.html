@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercises</title>
+    <link rel="stylesheet" href="/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <template id="template-exercise">
+        <h3>Zadanie <span class="bind-exIndex"></span></h3>
+        <span class="bind-exQuestion"></span>
+        <textarea rows="3" class="bind-exSolution"></textarea>
+        <code class="bind-exSolution"></code>
+    </template>
+
+    <template id="template-loading-error-screen">
+        <center>
+            <h1>Loading Error</h1>
+            <p>Exercise set "<span class="bind-exSetName"></span>" could not be found</p>
+        </center>
+    </template>
+
+    <template id="template-exercise-set">
+        <div class="container">
+            <h1>Zadania z działu: <span class="bind-exSetName"></span></h1>
+            <hr>
+            <div class="bind-exercises"></div>
+            <div class="row"></div>
+            <button class="btn btn-primary click-onCheckClick">Sprawdź</button>
+        </div>
+    </template>
+
+
+    <section id="main-content"></section>
+
+    <script src="/vendor/jquery.js"></script>
+    <script src="/exercises-engine.js"></script>
+</body>
+</html>

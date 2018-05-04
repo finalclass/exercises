@@ -1,0 +1,53 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "commonjs": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "avoidEscape": true
+            }
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "comma-dangle": [
+            "error",
+            "only-multiline"
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "varsIgnorePattern": "main"
+            }
+        ]
+    },
+    "globals": {
+        "angular": true,
+        "process": true,
+        "fun": true,
+        "main": true,
+        "BSTG": true,
+        "getBackstageAppModule": true,
+        "_": true
+    }
+}

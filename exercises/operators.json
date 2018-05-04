@@ -1,0 +1,12 @@
+{
+    "name": "Operatory",
+    "exercises": [
+        {
+            "question": [
+                "Co znajduje się wewnątrz zmiennej 'x'?<br/>",
+                "<code>var x = 3 + (3 - 2) * 2</code>"
+            ],
+            "solution": "3 + (3 - 2) * 2"
+        }
+    ]
+}
