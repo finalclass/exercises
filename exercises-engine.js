@@ -6,7 +6,7 @@ $(function () {
     }
 
     function loadExerciseSet(setName) {
-        return $.getJSON({url: '/exercises/' + setName + '.json'});
+        return $.getJSON({url: 'exercises/' + setName + '.json'});
     }
 
     function getMainContentNode() {
